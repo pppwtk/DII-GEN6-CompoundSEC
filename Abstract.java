@@ -59,7 +59,7 @@ class RoomAccess extends Access {
     }
 }
 
-public class Main {
+public class Abstract {
     public static void main(String[] args) {
         AccessControl floorAccess = new FloorAccess();
         AccessControl roomAccess = new RoomAccess();
