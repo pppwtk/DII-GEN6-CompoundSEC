@@ -27,7 +27,7 @@ public class AuditPanel extends JPanel {
     }
 
     private void loadAuditData() {
-        String filePath = "/Users/jaifha_wongkunta/Documents/wuttikan/oop project/AccessControlProject/card_audit.txt";
+        String filePath = "card_audit.txt";
         StringBuilder auditContent = new StringBuilder();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
