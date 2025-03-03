@@ -66,6 +66,7 @@ public class AdminMenu extends JFrame {
         return btn;
     }
 
+    //Polymorphism
     public void switchPanel(String panelName) {
         System.out.println("Switching to: " + panelName);
         mainPanel.removeAll();
