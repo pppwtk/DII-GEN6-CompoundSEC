@@ -172,7 +172,7 @@ public class ModifyCard extends JPanel {
             JPanel roomPanel = new JPanel(new GridLayout(0, 3, 5, 5));
 
             for (int i = 1; i <= 9; i++) {
-                String roomNumber = floor + "0" + i;
+                String roomNumber = "R" + floor + "0" + i;
                 JCheckBox checkBox = new JCheckBox(roomNumber);
                 roomCheckBoxes.add(checkBox);
                 roomPanel.add(checkBox);
